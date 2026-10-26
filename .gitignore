@@ -1,0 +1,14 @@
+# 数据集（CIFAR-10 tar.gz 170MB 超过 GitHub 单文件 100MB 上限）
+data/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 第三方 clone 的模型权重（checkpoint/*.pth 约 58MB，不入库）
+cifarfromgithub/checkpoint/
+
+# IDE / 系统垃圾
+.idea/
+Thumbs.db
+.DS_Store
